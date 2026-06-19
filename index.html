@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRify | Smart QR Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>QRify</h1>
+        <p class="subtitle">Generate QR Codes Instantly</p>
+
+        <input
+            type="text"
+            id="qrText"
+            placeholder="Enter text or URL..."
+        >
+
+        <button id="generateBtn">Generate QR Code</button>
+
+        <div id="imgBox">
+            <img id="qrImage" alt="QR Code">
+        </div>
+
+        <button id="downloadBtn" class="hidden">
+            Download QR Code
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
